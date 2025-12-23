@@ -1,0 +1,24 @@
+
+spring:
+  profiles:
+    active: local
+  rabbitmq:
+    host: rabbitmq.example.com
+    port: 5672
+    username: guest
+    password: guest
+    virtual-host: /
+    connection-timeout: 10000
+    template:
+      mandatory: false
+    listener:
+      simple:
+        retry:
+          enabled: true
+          initial-interval: 1000
+          max-attempts: 3
+        auto-startup: true
+        missing-queues-fatal: false
+        default-requeue-rejected: false
+server:
+  port: 8089

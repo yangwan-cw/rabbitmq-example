@@ -1,0 +1,7 @@
+rabbitmq:
+  host: rabbitmq.example.com
+  port: 5672
+  username: guest
+  password: guest
+  queue: hello
+
