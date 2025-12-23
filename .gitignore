@@ -1,0 +1,22 @@
+# 本地配置文件（不提交到Git）
+springboot-consumer/src/main/resources/application-local.yml
+go-producer/config.local.yaml
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# 编译文件
+springboot-consumer/target/
+go-producer/*.exe
+go-producer/*.dll
+go-producer/*.so
+go-producer/*.dylib
+
+# Go
+go-producer/go.sum
+
+# 日志文件
+*.log
+
