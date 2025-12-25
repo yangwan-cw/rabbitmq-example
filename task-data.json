@@ -1,0 +1,20 @@
+{
+  "taskId": 0,
+  "varInfo": [
+    {
+      "id": 0,
+      "taskId": 0,
+      "varId": 0,
+      "independentVarTypeId": 0,
+      "independentVarTypeName": "",
+      "varObjectName": "",
+      "parseFactorResult": "",
+      "varParamsMap": {},
+      "varParamsJsonStr": "",
+      "varStatus": "",
+      "baseline": "",
+      "varDesc": ""
+    }
+  ]
+}
+
